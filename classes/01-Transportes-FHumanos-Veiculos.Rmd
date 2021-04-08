@@ -1,0 +1,28 @@
+---
+title: "Transportes, Fatores Humanos e Veículos"
+subtitle: "STT5859 - Tecnologia dos Transportes"
+author:
+  name: "Prof. A.L. Cunha"
+  affiliation: "USP-EESC-STT"
+  
+output:
+  html_document:
+    theme: simplex
+    highlight: textmate
+    toc: true
+    toc_depth: 2
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library("tibble")
+
+```
+
+
+
+
+
+

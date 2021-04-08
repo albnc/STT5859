@@ -1,0 +1,149 @@
+---
+title: "Apresentação do curso"
+subtitle: "STT5859 - Tecnologia dos Transportes"
+author:
+  name: "Prof. A.L. Cunha, Prof. A. Nélson, Profa. Cira P., Prof. J.R. Setti"
+  affiliation: "USP-EESC-STT"
+  
+output:
+  html_document:
+    theme: simplex
+    highlight: textmate
+    toc: true
+    toc_depth: 2
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library("tibble")
+
+```
+
+
+## Objetivo
+
+O objetivo da disciplina é estudar os fundamentos das tecnologias utilizadas nos sistemas de transportes, para que se possa melhor compreender os mecanismos que regulam o seu funcionamento e a sua capacidade.
+
+
+## Programa do curso
+O curso abordará os tópicos relacionados a seguir:
+
+a. O setor de transportes como um sistema 
+b.	Características veiculares e fatores humanos envolvidos na condução de veículos rodoviários
+c.	Locomoção veicular
+d.	Características do fluxo veicular e teorias de fluxo de tráfego
+e.	Capacidade e nível de serviço
+f.	Projeto e controle de interseções rodoviárias
+g.	Princípios econômicos dos sistemas de transporte
+h.	Características dos modos de transporte
+i.	Geração e distribuição de viagens
+j.	Modelo gravitacional e escolha modal
+k.	Alocação de tráfego e equilíbrio em rede
+
+
+
+```{r classes, echo=FALSE}
+
+df <- tibble(
+  Semana = 1:14,
+  Docente = c("André",
+              "Setti",
+              "Setti",
+              "Setti",
+              "André",
+              "André",
+              "André/Setti",
+              "Nélson",
+              "Nélson",
+              "Nélson/Cira",
+              "Cira",
+              "Cira",
+              "Cira",
+              "Cira/Nélson"
+              ),
+  Assunto = c("Transportes, características veiculares e fatores humanos",
+              "Locomoção veicular",
+              "Locomoção Veicular",
+              "Características do fluxo veicular e teorias de fluxo de tráfego",
+              "Capacidade e Nível de Serviço",
+              "Projeto e controle de interseções rodoviárias",
+              "PROVA 1",
+              "Características dos modos de transporte",
+              "Princípios econômicos dos sistemas de transporte",
+              "Geração e distribuição de viagens",
+              "Modelo Gravitacional e escolha modal",
+              "Alocação de tráfego e equilíbrio da rede",
+              "Alocação de tráfego e equilíbrio da rede",
+              "PROVA 2"
+              ),
+  Data = c("15.abr", "22.abr", "29.abr", "6.mai", "13.mai", "20.mai", "27.mai", 
+           "10.jun", "17.jun", "24.jun", "1.jul", "8.jul", "15.jul", "29.jul"
+           )
+)
+
+knitr::kable(df, caption="Calendário 2021")
+
+```
+
+## Avaliação
+
+- Os alunos matriculados deverão fazer duas provas, nos dias *27/maio* e *29/julho*. 
+- A matéria da Prova 1 compreenderá os tópicos das semanas 1 a 6; a matéria da Prova 2, das semanas 8 a 15.
+- Os alunos deverão também resolver uma lista de exercícios para cada tópico abordado no curso. 
+- A entrega destas listas de exercícios, dentro do prazo estabelecido, é obrigatória. 
+- Os alunos que não entregarem todas as listas de exercícios serão considerados reprovados no disciplina. 
+- A nota mínima para aprovação é 6,0, sendo a nota final calculada pela seguinte formula:
+
+$$NF = \frac{NP_1 + NP_2 + NP_3 + NP_4}{4}$$
+
+em que $NP_i$ é a nota parcial correspondente ao que cada docente cobre na disciplina. A $NP_i$ é composta pela nota da prova e, a critério de cada docente, as listas e atividades realizadas em aula podem servir de bonificação a esta nota parcial.
+
+
+## Bibliografia
+
+A bibliografia do curso está baseada em publicações disponíveis na biblioteca da EESC-USP e será fornecida pelos docentes:
+
+- E. K. Morlok (1978). Introduction to Transportation Engineering and Planning. McGraw-Hill Kogakusha, Tokyo. 
+- C. J. Khisty & B. K. Lall (2003). Transportation Engineering – An Introduction (3a. ed.). Prentice Hall.
+- C. S. Papacostas & P. D. Prevedouros (2001). Transportation Engineering & Planning (3a. ed.). Prentice Hall.
+- J.D. Ortúzar & L.G. Willumsen (2011). Modelling Transport (4a. ed.). Willey.
+- F.L. Manneing & S.S. Washburn (2013). Principles of Highway Engineering and Traffic Analysis (5a. ed.) Wiley.
+
+
+```{r topics, echo=FALSE}
+
+df <- tibble(
+  Topico = c(
+    "O setor de transportes como sistema | Características dos modos de transporte",
+    "Princípios econômicos dos sistemas de transporte",
+    "Geração e distribuição de viagens",
+    "Modelo gravitacional e escolha modal",
+    "Alocação e equilíbrio em rede",
+    "Características veiculares e fatores humanos",
+    "Mecânica da locomoção veicular",
+    "Teorias de fluxo de veículos",
+    "Capacidade e nível de serviço",
+    "Projeto e controle de interseções rodoviárias"
+  ),
+  Bibliografia = c(
+    "Khisty & Lall, cap. 1, pp. 1–29 | Papacostas & Prevedouros, cap. 5, pp. 232–262",
+    "Khisty & Lall, cap. 2, pp. 31– 59",
+    "Ortúzar & Willumsen, caps. 4 e 5, pp. 139 – 206",
+    "Ortúzar & Willumsen, caps. 6 e 7, pp. 207 – 268",
+    "Ortúzar & Willumsen, cap. 10, pp. 349 – 390",
+    "Khisty & Lall, cap. 4, pp. 97–117",
+    "Morlok, cap. 4, pp. 115–173",
+    "Papacostas & Prevedouros, cap. 3, pp. 100–132 | Mannering & Washburn, cap. 5, pp. 149–170",
+    "Khisty & Lall, cap. 7, pp. 223–285 | Papacostas & Prevedouros, cap. 4, pp. 133–229",
+    "Khisty & Lall, cap. 8, pp. 287¬335 | Papacostas & Prevedouros, cap. 4, pp. 133–229"
+  )
+)
+
+knitr::kable(df)
+
+```
+
+
+

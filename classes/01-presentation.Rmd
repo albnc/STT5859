@@ -11,6 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: '4:3'
 ---
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
@@ -39,11 +40,13 @@ Image credit :[Creative Commons](https://unsplash.com/photos/-9yyKm-aXP8?utm_sou
 ---
 # História dos Transportes
 
+.pull-left[
 <iframe width="448" height="252" src="https://www.youtube.com/embed/FaLCQo8NJFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
-
+.pull-right[
 <iframe width="448" height="252" src="https://www.youtube.com/embed/uNU0MfyQM20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+]
 ---
 # Importância dos Transportes
 

@@ -27,8 +27,8 @@ background-image: url("ankush-minda-7KKQG0eB_TI-unsplash.jpg")
 background-size: cover
 
 
-# STT5859 
-## Tecnologia dos Transportes
+# Docentes 
+## STT5859
 
 
 ---

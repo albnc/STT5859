@@ -1,0 +1,16 @@
+---
+title: "Amostragem"
+author: "Andre Luiz Cunha"
+date: "05/05/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- Good examples slides to be used -->
+<!-- https://campus.datacamp.com/courses/introduction-to-statistics-in-r/summary-statistics?ex=1 -->
+
+## Introdução
+

@@ -42,19 +42,19 @@ library(leaflet)
 
 df <- tribble(
   ~nome, ~local,
-  "USP-EESC-STT", "Universidade de São Paulo - Campus/Área I, São Carlos, SP"#,
-  # "Anáiram", "",
-  # "Anna Luiza", "",
-  # "Arinilson","",
-  # "Arthur","",
-  # "Crhistian","",
-  # "Danilo","",
-  # "Frederico","",
-  # "Lady Dayana","",
-  # "Luiz Gustavo","",
-  # "Luiz Henrique","",
-  # "Marcos Lobo","",
-  # "Pedro Henrique","",
+  "USP-EESC-STT", "Universidade de São Paulo - Campus/Área I, São Carlos, SP",
+  "Anáiram", "Belo Horizonte, MG",
+  "Anna Luiza", "Natal, RN",
+  "Arinilson","Ribeirão Preto, SP",
+  "Arthur","Maringá, PR",
+  "Crhistian","Vitória, ES",
+  "Danilo","Campo Grande, MS",
+  "Frederico","Belo Horizonte, MG",
+  "Dayana","Colômbia",
+  "Luiz Gustavo","Igaraçu do Tietê, SP",
+  "Luiz Henrique","São Luis, MA",
+  "Marcos Lobo","São Paulo, SP",
+  "Pedro Henrique","Vitória, ES",
   
 )
 
@@ -188,7 +188,9 @@ knitr::kable(df)
 
 $$NF = \frac{NP_1 + NP_2 + NP_3 + NP_4}{4}$$
 
-em que $NP_i$ é a nota parcial correspondente ao que cada docente cobre na disciplina. A $NP_i$ é composta pela nota da prova e, a critério de cada docente, as listas e atividades realizadas em aula podem servir de bonificação a esta nota parcial.
+em que $NP_i$ é a nota parcial correspondente a parte de cada docente.
+
+A $NP_i$ é composta pela nota da prova e, a critério de cada docente, as listas e atividades realizadas em aula **podem servir de bonificação** a esta nota parcial.
 
 
 

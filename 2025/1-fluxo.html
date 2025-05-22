@@ -414,12 +414,12 @@ Transportes)</p></li>
 <td align="left">fluxo [veic/h]</td>
 </tr>
 <tr class="even">
-<td align="left">espaçamento [m/veic]</td>
-<td align="left">densidade [veic/km]</td>
-</tr>
-<tr class="odd">
 <td align="left">tempo de viagem [s/m]</td>
 <td align="left">velocidade [km/h]</td>
+</tr>
+<tr class="odd">
+<td align="left">espaçamento [m/veic]</td>
+<td align="left">densidade [veic/km]</td>
 </tr>
 </tbody>
 </table>
@@ -443,7 +443,82 @@ observados por um certo ponto da via, durante um intervalo de tempo
 <li><span class="math inline">\(t\)</span>: duração do intervalo de
 tempo.</li>
 </ul>
+<p>Sabe-se que:</p>
+<p><span class="math display">\[t = \sum_{i=1}^{n}  h_i\]</span></p>
+<ul>
+<li><span class="math inline">\(h_i\)</span>: <em>headway</em>,
+intervalo de tempo entre a passagem do (<em>i</em> - 1) e do
+<em>i</em>-ésimo veículos</li>
+</ul>
+<p>Portanto:</p>
+<p><span class="math display">\[q = \frac{n}{\sum_{i=1}^{n}  h_i}
+\Rightarrow q = \frac{1}{\overline{h}}\]</span></p>
 </div>
+<div id="velocidade-da-corrente-de-tráfego-u" class="section level3">
+<h3>Velocidade da corrente de tráfego (<em>u</em>)</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Velocidade média no tempo (média aritmética das
+velocidades)</strong></li>
+</ol>
+<p><span class="math display">\[\overline{u_t} = \frac{\sum_{i=1}^{n}
+u_i}{n}\]</span></p>
+<ul>
+<li><span class="math inline">\(\overline{u_t}\)</span>: velocidade
+média no tempo, em km/h;</li>
+<li><span class="math inline">\(u_i\)</span>: velocidade do
+<em>i</em>-ésimo veículo, em km/h;</li>
+<li><span class="math inline">\(n\)</span>: número de veículos
+observados.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Velocidade média no espaço (média harmônica das
+velocidades)</strong></li>
+</ol>
+<p><span class="math display">\[\overline{u_s} =
+\frac{l}{\overline{t}}\]</span></p>
+<ul>
+<li><span class="math inline">\(\overline{u_s}\)</span>: velocidade
+média no espaço, em km/h;</li>
+<li><span class="math inline">\(l\)</span>: comprimento do trecho
+percorrido;</li>
+<li><span class="math inline">\(\overline{t}\)</span>: tempo médio para
+percorrer o trecho.</li>
+</ul>
+<p>Portanto,</p>
+<p><span class="math display">\[\overline{t} = \frac{1}{n} \sum_{i=1}{n}
+t_i\]</span></p>
+</div>
+<div id="densidade-de-tráfego-k" class="section level3">
+<h3>Densidade de tráfego (<em>k</em>)</h3>
+<p><span class="math display">\[k = \frac{n}{l}\]</span></p>
+<ul>
+<li><span class="math inline">\(k\)</span>: densidade, em veic/unidade
+de comprimento;</li>
+<li><span class="math inline">\(n\)</span>: número de veículos que
+ocupam certo trecho da via, num certo instante de tempo;</li>
+<li><span class="math inline">\(l\)</span>: comprimento do trecho, em
+unidade de comprimento.</li>
+</ul>
+<p>Portanto,</p>
+<p><span class="math display">\[\overline{l} = \sum_{i=1}{n}
+s_i\]</span></p>
+<ul>
+<li><span class="math inline">\(s_i\)</span>: espaçamento, distância
+entre o (<em>i</em>-1) e o <em>i</em>-ésimo veículos, medida com mesma
+referência (para-choque ou eixo dianteiro).</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="modelos-macroscópicos" class="section level1">
+<h1>Modelos Macroscópicos</h1>
+<div id="relação-fundamental" class="section level2">
+<h2>Relação fundamental</h2>
+<p><span class="math display">\[q = k \cdot u\]</span></p>
+<p><span class="math display">\[FLUXO = DENSIDADE x
+VELOCIDADE\]</span></p>
+<p><span class="math display">\[\frac{VEIC}{H} = \frac{VEIC}{KM} \cdot
+\frac{KM}{H}\]</span></p>
 </div>
 </div>
 <div id="referências" class="section level1 unnumbered">

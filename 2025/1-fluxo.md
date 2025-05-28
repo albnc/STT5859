@@ -8,9 +8,9 @@ author: "Prof. André Luiz Cunha"
 
 # Tópicos{-}
 
-  - [ ]Diagrama espaço-tempo em vias urbanas
-  - [ ]Caracterização do tráfego (parâmetros do tráfego)
-  - [ ]Modelos macroscópicos (Greenshields e outros)
+  - [ ] Diagrama espaço-tempo em vias urbanas
+  - [ ] Caracterização do tráfego (parâmetros do tráfego)
+  - [ ] Modelos macroscópicos (Greenshields e outros)
   - [ ] Ondas de choque
 
 

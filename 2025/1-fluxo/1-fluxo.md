@@ -3,7 +3,9 @@ title: "Teoria de fluxo de Tráfego"
 subtitle: "STT5859.2025"
 author: "Prof. André Luiz Cunha"
 
-number_sections: true
+format:
+  html:
+    number-sections: true
 ---
 
 **TÓPICOS**
@@ -13,6 +15,7 @@ number_sections: true
   - [ ] Modelos macroscópicos (Greenshields e outros)
   - [ ] Ondas de choque
 
+---
 
 # Introdução
 

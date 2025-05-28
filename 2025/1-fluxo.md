@@ -2,14 +2,16 @@
 title: "Teoria de fluxo de Tráfego"
 subtitle: "STT5859.2025"
 author: "Prof. André Luiz Cunha"
+
+
 ---
 
 # Tópicos{-}
 
-  - Diagrama espaço-tempo em vias urbanas
-  - Caracterização do tráfego (parâmetros do tráfego)
-  - Modelos macroscópicos (Greenshields e outros)
-  - Ondas de choque
+  - [ ]Diagrama espaço-tempo em vias urbanas
+  - [ ]Caracterização do tráfego (parâmetros do tráfego)
+  - [ ]Modelos macroscópicos (Greenshields e outros)
+  - [ ] Ondas de choque
 
 
 # Introdução

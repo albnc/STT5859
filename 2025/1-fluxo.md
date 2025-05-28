@@ -3,9 +3,7 @@ title: "Teoria de fluxo de Tráfego"
 subtitle: "STT5859.2025"
 author: "Prof. André Luiz Cunha"
 
-format:
-  gfm:
-    number-sections: true
+number_sections: true
 ---
 
 **TÓPICOS**

@@ -1,0 +1,35 @@
+---
+title: "Teoria de fluxo de tráfego"
+author: "Prof. André Luiz Cunha"
+
+format: 
+  revealjs: 
+    theme: moon
+---
+
+# {background-color="white"}
+<!-- imagem/video do tráfego veicular -->
+
+
+# Introdução
+
+- Modelo de locomoção veicular:
+    - movimento de um único veículo
+    - sem interação com demais veículos
+    
+- Modelo de corrente de tráfego:
+    - uso simultâneo da via por diversos veículos
+    - interação entre veículos
+
+
+
+
+## Diagrama espaço-tempo em vias urbanas
+
+## Caracterização do tráfego (parâmetros do tráfego)
+
+## Modelos macroscópicos (Greenshields e outros)
+
+## Ondas de choque
+
+

@@ -5,9 +5,9 @@ author: "Prof. André Luiz Cunha"
 
 format:
   - gfm:
-    number-sections: true
+      number-sections: true
   - pdf:
-    number-sections: true
+      number-sections: true
 ---
 
 **TÓPICOS**

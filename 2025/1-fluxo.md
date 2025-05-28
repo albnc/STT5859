@@ -4,10 +4,8 @@ subtitle: "STT5859.2025"
 author: "Prof. André Luiz Cunha"
 
 format:
-  - gfm:
-      number-sections: true
-  - pdf:
-      number-sections: true
+  gfm:
+    number-sections: true
 ---
 
 **TÓPICOS**

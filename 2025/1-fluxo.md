@@ -2,11 +2,10 @@
 title: "Teoria de fluxo de Tráfego"
 subtitle: "STT5859.2025"
 author: "Prof. André Luiz Cunha"
-
-
+number-sections: true
 ---
 
-# Tópicos{-}
+**TÓPICOS**
 
   - [ ] Diagrama espaço-tempo em vias urbanas
   - [ ] Caracterização do tráfego (parâmetros do tráfego)
@@ -147,7 +146,7 @@ Imagem de fila de semáforo em Elefteriadou
 
 
 
-# Referências{-}
+# Referências
 
 "Principles of Highway Engineering and Traffic Analysis" (cap.5, Mannering & Washburn) - Fundamentals of Traffic flow and Queuing Theory
 <!--"Traffic Stream Models" (cap.3 Papacostas & Prevedouros) - Shock Waves in Traffic
